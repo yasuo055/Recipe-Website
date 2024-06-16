@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    font-size: 18px;
+}
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 32px;
+}
+.home{
+    text-align: left;
+}
+main{
+    display: grid;
+    place-items: center;
+    height: 20vh; /* Full viewport height */
+    line-height: 1.5;
+}
+.title{
+    display: grid;
+    place-items: center;
+}
+.description{
+    width: 450px;
+}
+ul, li{
+    margin-bottom: 10px;
+    
+}
+.steps{
+    width: 400px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+}
