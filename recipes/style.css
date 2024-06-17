@@ -1,36 +1,42 @@
-body{
+body {
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
     font-size: 18px;
 }
-header{
+
+header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 32px;
 }
-.home{
-    text-align: left;
+
+nav {
+    text-align: center;
+    font-size: 24px;
 }
-main{
+
+main {
     display: grid;
     place-items: center;
-    height: 20vh; /* Full viewport height */
+    height: 20vh;
     line-height: 1.5;
 }
-.title{
-    display: grid;
-    place-items: center;
-}
-.description{
+.description {
     width: 450px;
 }
-ul, li{
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+ul,
+li {
+    font-size: 18px;
     margin-bottom: 10px;
-    
 }
-.steps{
-    width: 400px;
-}
-img{
+
+
+img {
     height: 250px;
     width: 250px;
     border-radius: 12px;

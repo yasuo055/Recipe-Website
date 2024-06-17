@@ -1,17 +1,19 @@
-body{
+body {
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
     font-size: 18px;
 }
 
-header{
+header {
     text-align: center;
     font-size: 32px;
 }
-main{
+
+main {
     text-align: center;
 }
 
-ul, li{
+ul,
+li {
     list-style-type: none;
     margin-bottom: 20px;
 }

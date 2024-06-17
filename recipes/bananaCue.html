@@ -3,48 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana Cue</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Recipe Steps and Ingredients</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav>
+        <a href="../index.html" class="home">Home</a>
+    </nav>
     <header>
-        <h1>Banana Cue</h1>
+       <h1>Banana Cue</h1>
+       
     </header>
-    <main>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWreqQC9YAob5l7-bUTF7FDF-BnEJhpRjz-w&s" alt="Banana Cue" width="300" height="250" />
+    <div class="description">
         <h2>Description</h2>
-        <p class="description">This is a popular Filipino street food made with deep-fried plantains coated in brown sugar. It's a simple yet satisfying snack.  You just need saba bananas (plantains), brown sugar, and cooking oil for frying.</p>
-        <div class="title ingredients">
-            <h3>Ingredients</h3>
-            <ul class="ing">
-                <li>Saba bananas (plantains)</li>
-                <li>Brown sugar</li>
-                <li>Cooking oil</li>
-                <li>Skewers</li>
-            </ul>
-        </div>
-        <div class="steps">
-                <h3 class="title steps">Steps</h3>
-            <ol>
-                <li>Prepare the bananas</li>
-                <li>Heat the oil</li>
-                <li>Caramelize the sugar (optional)</li>
-                <li>Fry the bananas</li>
-                <li>Coat with sugar</li>
-                <ul>
-                    <li>Method 1</li>
-                    <ul>
-                        <li>If you caramelized the sugar in a separate pan, remove the bananas from the oil and immediately toss them in the caramelized sugar until coated.</li>
-                    </ul>
-                    <li>Method 2</li>
-                    <ul>
-                        <li>If you didn't caramelize the sugar separately, remove the bananas from the oil and sprinkle them with the remaining brown sugar while they are still hot. Use a spoon or tongs to coat them evenly.</li>
-                    </ul>
+        <p>This is a popular Filipino street food made with deep-fried plantains coated in brown sugar. It's a simple yet satisfying snack.  You just need saba bananas (plantains), brown sugar, and cooking oil for frying.</p>
+    </div>
+    <main>
+       
+        <div class="container">
+            <div class="title ingredients">
+                <h3>Ingredients</h3>
+                <ul class="ing">
+                    <li>Saba bananas (plantains)</li>
+                    <li>Brown sugar</li>
+                    <li>Cooking oil</li>
+                    <li>Skewers</li>
                 </ul>
-                <li>Skewer the bananas</li>
-                <li>And last, Serve!</li>
-            </ol>
+            </div>
+            <div class="steps">
+                <h3 class="title step">Steps</h3>
+                <div id="step">
+                    <ol class="step">
+                        <li>Prepare the bananas</li>
+                        <li>Heat the oil</li>
+                        <li>Caramelize the sugar (optional)</li>
+                        <li>Fry the bananas</li>
+                        <li>Coat with sugar</li>
+                        <ul>
+                            <li>Method 1</li>
+                            <ul>
+                                <li>If you caramelized the sugar in a separate pan, remove the bananas from the oil and immediately toss them in the caramelized sugar until coated.</li>
+                            </ul>
+                            <li>Method 2</li>
+                            <ul>
+                                <li>If you didn't caramelize the sugar separately, remove the bananas from the oil and sprinkle them with the remaining brown sugar while they are still hot. Use a spoon or tongs to coat them evenly.</li>
+                            </ul>
+                        </ul>
+                        <li>Skewer the bananas</li>
+                        <li>And last, Serve!</li>
+                    </ol>
+                </div>
+            </div>
         </div>
-    </main>   
+    </main>
 </body>
 </html>
