@@ -1,0 +1,61 @@
+body {
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    font-size: 18px;
+    height: 110vh; 
+
+}
+
+nav {
+    text-align: center;
+    font-size: 24px;
+
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 32px;
+    padding: 0px;
+    background-color: #fff;
+}
+
+.description{
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+ul, ol {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 20px; /* Add padding to the list items */
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+.steps, .ingredients{
+    padding: 20px;
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
