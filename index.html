@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Odin Recipes</h1>
     </header>
     <main>
-        <ul>
-            <li><a href="./recipes/adobo.html" class="title">Adobo Recipes</a></li>
-            <li><a href="./recipes/pancitCanton.html"  class="title">Pancit Canton</a></li>
-            <li><a href="./recipes/bananaCue.html"  class="title">Banana Cue</a></li>
-        </ul>
+        <div class="grid-container">
+            <a href="./recipes/adobo.html" class="card">
+                <img src="https://www.sandravalvassori.com/wp-content/uploads/2022/05/Adobo-chicken-9894-2-728x971.jpg"
+                    alt="Chicken Adobo" />
+                <span class="title">Adobo Recipes</span>
+            </a>
+            <a href="./recipes/bananaCue.html" class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWreqQC9YAob5l7-bUTF7FDF-BnEJhpRjz-w&s"
+                    alt="Banana Cue" />
+                <span class="title">Banana Cue</span>
+            </a>
+            <a href="./recipes/pancitCanton.html" class="card">
+                <img src="https://panlasangpinoy.com/wp-content/uploads/2014/10/Pancit-Canton.jpg" alt="Pancit bihon"
+                    id="pancitCanton" />
+                <span class="title">Pancit Canton</span>
+            </a>
+
+        </div>
     </main>
 </body>
-</html> 
+
+</html>
