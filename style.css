@@ -10,19 +10,18 @@ header {
     font-size: 32px;
 }
 
-main {
+main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    width: 80%;
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
+
 
 .card {
     background-color: #fff;
@@ -36,6 +35,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 0 0 auto;
+    width: 300px;
 }
 
 .card img {
@@ -44,9 +45,9 @@ main {
     border-radius: 8px;
 }
 
-#pancitCanton {
+#pancit-canton{ 
     width: 92%;
-    height: auto;
+
 }
 
 .card .title {
@@ -60,8 +61,3 @@ main {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 600px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-}
